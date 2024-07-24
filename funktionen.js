@@ -4,7 +4,7 @@
 
 // let a; // Definition oder Deklaration
 
-// // Wertzuweisung / Assignment 
+// Wertzuweisung / Assignment 
 // a = 2; // number 
 // a = true; // boolean (true, false)
 // a = "Hallo"; // string 

@@ -77,4 +77,53 @@
 // rechner();
 
 
+// Test
+// let arrCity;
+// arrCity = ["Berlin","Paris","London","New York"];
+
+// console.log(arrCity[arrCity.length-1]);
+
+
+// var struc =
+// {
+//  level1:
+//  {
+//  level2:
+//  {
+// param1: 3.14,
+// param2: 10.01
+//  }
+//  }
+// };
+
+// console.log(struc.level1.level2.param1);
+// console.log(struc.level1.level2.param2);
+
+
+const ERROR_S_GEN = "Irgendwas ist schief gegangen!";
+
+function rechner(nr1, nr2, op){
+
+    switch (op) {
+        case "+": 
+            return "Das Ergebnis lautet: " + summe(nr1, nr2);	
+        case "-": 
+            return "Das Ergebnis lautet: " + different(nr1, nr2);
+        default:
+            return ERROR_S_GEN;
+    }
+    
+}
+
+function summe(nr1, nr2) {
+	return nr1 + nr2;
+}
+
+function different(nr1, nr2) {
+	return nr1 - nr2;
+
+}
+
+console.log(rechner(10, 4, '-')); // Subtraktion
+console.log(rechner(10, 4, '+')); // Addition
 
